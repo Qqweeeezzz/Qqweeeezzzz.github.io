@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашняяя страничка Костина Николая </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .carousel-item {
+            height: 400px;
+        }
+        .carousel-item img {
+            height: 300px;
+	    border-radius: 20px;
+            object-fit: cover;
+	    width: 30%;
+	    margin: auto;
+        }
+        #container {
+            margin: 20px;
+        }
+        #header {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        #navigation, #sidebar, #content {
+            margin-top: 20px;
+        }
+        #sidebar {
+            margin-bottom: 20px;
+        }
+        #clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Панель навигации -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Википедия Стиль</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Статьи</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Карусель -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Стан.png"   class="d-block w-200"  alt="Слайд 1">
+        </div>
+        <div class="carousel-item">
+            <img src="авто.jpg" height="400" class="d-block w-200" alt="Слайд 2">
+        </div>
+        <div class="carousel-item">
+            <img src="фильм.png" class="d-block w-200" alt="Слайд 3">
+        </div>
+   
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Предыдущий</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Следующий</span>
+    </a>
+</div>
+
+<div id="container">
+    <div id="header">
+        <h2>Костин Николай</h2>
+        <img src="главное.jpg" width="600" height="400" alt="Костин Николай" class="img-fluid">
+    </div>
+
+    <div id="sidebar">
+        <h2>Навигация</h2>
+        <ul>
+            <li><a href="university.html" title="Мой ВУЗ">Университет</a></li>
+            <li><a href="group.html" title="Моя группа">Моя Группа</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <h2><center>Я увлекаюсь пауэрлифтингом, автомобилями, также не прочь посмотреть фильм или сериал.</center></h2>
+    </div>
+
+    <div id="clear"></div>
+
+    <!-- Кнопка -->
+    <div class="text-center mb-3">
+        <a href="#" class="btn btn-primary">Узнать больше обо мне</a>
+    </div>
+
+    <!-- Таблица -->
+    <h3>Информация о хобби</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Хобби</th>
+                <th>Описание</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+		 <td>Пауэрлифтинг</td>
+                <td>Силовой вид спорта, направленный на поднятие максимального веса в трех упражнениях.</td>
+            </tr>
+            <tr>
+                <td>Автомобили</td>
+                <td>Увлечение различными марками и моделями автомобилей, их ремонтом и тюнингом.</td>
+            </tr>
+            <tr>
+                <td>Фильмы и сериалы</td>
+                <td>Просмотр различных фильмов и сериалов в жанрах драма, комедия и фантастика.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+ <!-- Дата создания страницы -->
+    <h2>Дата создания страницы: 18.11.2024</h2>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
